@@ -1,0 +1,30 @@
+source 'https://rubygems.org'
+
+gem 'rails', '4.2.6'
+gem 'rails-api', '0.4.0'
+gem 'mongoid', '5.1.1'
+gem 'mongoid_paranoia', '0.2.1'
+gem 'rack-cors', '0.4.0'
+gem 'mongoid-enum', '0.4.0'
+gem 'bcrypt', '3.1.11'
+gem 'symbolize', '4.4.1'
+gem 'delayed_job_mongoid', '2.2.0'
+gem 'kaminari', '0.16.3'
+gem 'barby', '0.6.2'
+gem 'foreman', '~> 0.82.0'
+gem 'fast_jsonapi'
+gem 'prawn', '2.1.0'
+gem 'whenever', '0.9.4'
+gem 'browser', '2.0.2'
+gem 'mws-connect', '0.0.4'
+
+group :development, :test do
+  gem 'spring', '2.0.2'
+  gem 'rspec-rails', '3.4.2'
+  gem 'mongoid-rspec', '3.0.0'
+  gem 'factory_girl_rails', '4.6.0'
+  gem 'simplecov', '0.11.2'
+  gem 'byebug', '9.0.5'
+  gem 'thin', '1.6.4'
+end
+
